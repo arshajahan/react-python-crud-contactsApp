@@ -1,3 +1,5 @@
+![GIF Description](https://raw.githubusercontent.com/user/repository/branch/path/to/gif/file.gif)
+
 # Simple React-Python Full stack (Contacts App)
 
 This repo includes 
@@ -11,7 +13,7 @@ To Run react app:
   
 To Run python django:
   - make sure that you have python, django and restframework installed
-  - goto -> python_API -> 'python manage.py migrate' command to migrate
+  - goto -> python_API -> use commands, 'python manage.py makemigrations' followed by 'python manage.py migrate'
   - to run 'python manage.py runserver'
 
 

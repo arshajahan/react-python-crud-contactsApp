@@ -20,3 +20,6 @@ To Run python django:
 After both are running, now you can perform crud operations.
 
 thank you.
+
+FYI: This app is not responsive
+--------------------------------

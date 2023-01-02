@@ -1,4 +1,4 @@
-![](https://github.com/arshajahan/react-python-crud-contactsApp/blob/main/reactpython.gif | width=200 | height =200)
+![](https://github.com/arshajahan/react-python-crud-contactsApp/blob/main/reactpython.gif | width=200)
 
 # Simple React-Python Full stack (Contacts App)
 

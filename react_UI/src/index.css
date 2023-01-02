@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+body{
+  background: #010101;
+  background: -webkit-linear-gradient(bottom left, #010101, #675255);
+  background: -moz-linear-gradient(bottom left, #010101, #675255);
+  background: linear-gradient(to top right, #010101, #675255);
+}
+
+.App{
+  height: 100vh;
+}
+
+.wrapper{
+  max-width: 600px;
+  width: auto;
+  background: #F71212;
+  background: -webkit-linear-gradient(top left, #F71212, #A91A2C);
+  background: -moz-linear-gradient(top left, #F71212, #A91A2C);
+  background: linear-gradient(to bottom right, #F71212, #A91A2C);
+  align-self: center;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 1rem;
+}
+
+.navbar{
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.links{
+  display: flex;
+  padding-left: 0;
+  justify-content: space-between;
+  list-style-type: none;
+  gap: 2rem;
+
+}
+
+.links a{
+  text-transform: uppercase;
+  font-size: small;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  background-color:blue;
+  padding: 1rem;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.links a:hover{
+  background-color: white;
+  color: black;
+}
+
+.form{
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-self: center;
+}
+
+.form-container h2{
+  text-align: center;
+  color: white;
+}
+
+.form > * {
+  height: 35px;
+}
+
+.form button{
+  width: fit-content;
+  align-self: center;
+  width: 6rem;
+  background-color: green;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.form button:hover{
+  background-color: blue;
+  color: black;
+}
+
+table{
+  font-size: small;
+  background-color: white;
+  width: 80%;
+  padding: .5rem;
+  margin: auto;
+  margin-top: 2rem;
+  border: solid 2px black;
+}
+
+table thead{
+  background-color: black;
+  color: white;
+}
+
+tr{
+  display: flex;
+  justify-content: space-between;
+}
+
+tr td{
+  padding: 0.7rem;
+  width: 100px;
+}
+
+tbody tr{
+  margin-top: 5px;
+  background-color:darkgray;
+  
+}
+
+td span, .icon-td a{
+  font-weight: bolder;
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: small;
+  color: red;
+}
+
+td span:hover, .icon-td a:hover{
+  color: blue;
+}
+
+.icon-td{
+  flex-basis: 33px;
+  padding-right: 0;
+  padding-left: 0;
+  padding-right: 0.5rem;
+}
